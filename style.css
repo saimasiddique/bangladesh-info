@@ -1,0 +1,163 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.title
+{
+    
+    font-size: 60px;
+     background: -webkit-linear-gradient(50deg, green,red);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    text-decoration: 2px green solid underline;
+    text-underline-offset: 3px;
+    
+}
+
+#bangladesh
+{
+    font-size: 18px;
+    text-align: justify;
+}
+ .first-section
+ {
+     display: flex;
+     margin: 0 auto;
+     width: 95%;
+    
+ }
+ 
+ #bd
+ {
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ #bd:hover
+ {
+     color: rgb(11, 73, 11);
+ }
+
+ .photo img
+ {
+     width: 500px;
+     height: 350px;
+     padding-left: 30px;
+     padding-top: 60px;
+     
+     
+ }
+
+ .half-side
+ {
+     width: 50%;
+     padding-left: 5%;
+ }
+
+ .btn
+ {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(60deg, green, red, green);
+ }
+
+ .btn:hover 
+ {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(94, 89, 89);
+    cursor: pointer;
+    background-image: linear-gradient(60deg, red, green,red) ;
+    
+  }
+
+  #division
+  {
+      text-align: center;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 50px;
+      color: rgb(5, 44, 5);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+     
+    
+  }
+
+  .second-section
+  {
+      display: flex;
+      margin-top: 10px;
+      justify-content: space-around;
+      padding: 40px;
+      
+      
+  }
+
+  .dev-detail
+  {
+      width: 350px;
+      box-shadow: 4px 4px 12px gray;
+      border-radius: 15px ;
+      border-left: 5px solid;
+      border-image:linear-gradient(190deg,green,red,green,white) round;
+     
+      border-image-slice: 1;
+
+  }
+  .div-img img
+  {
+      width: 100%;
+      border-radius: 0px 15px 0px 0px;
+      
+  }
+
+  
+  #division:hover
+  {
+      color: rgb(47, 128, 31);
+      font-size: 35px;
+  }
+
+  .div-name 
+  {
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 15px;
+    
+  }
+
+a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    padding-left: 25px;
+    padding-right: 15px;
+    
+
+}
+
+a:hover 
+{
+    color: darkred;
+    font-weight: 700;
+}
+
+a:active
+{
+    text-decoration: underline;
+}
+
+footer
+{
+    color: darkslategray;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
